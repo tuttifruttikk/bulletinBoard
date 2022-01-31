@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>New Announcement</title>
+    <link rel="stylesheet" href="../styles/main.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="header_name">New Announcement</div>
+    <form action="board" method="post" class="form_new-announcement">
+        <div class="form_header">
+            <label class="label">Header<br>
+                <input type="text" name="header" class="input" placeholder="Enter the header" required/>
+            </label>
+        </div>
+        <div class="form_text">
+            <label class="label">Text<br>
+                <textarea name="text" class="textarea" placeholder="Enter the text" required></textarea>
+            </label>
+        </div>
+        <div class="form_submit">
+            <input type="submit" value="Create new announcement" class="menu_button-ann"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>
